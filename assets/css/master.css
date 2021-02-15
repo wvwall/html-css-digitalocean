@@ -1,0 +1,142 @@
+/* LAYOUT */
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* NAVBAR */
+
+#logo {
+  width: 70%;
+}
+.navbar {
+  margin-bottom: 0;
+}
+.my_navbar-default {
+  background-color: #fff;;
+}
+.navbar-brand {
+  width: 300px;
+}
+.navbar-nav>li>a {
+    line-height: 40px;
+    color: #031B4E;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.icon-bar {
+  background-color: #0160FF;
+}
+.navbar-toggle {
+  margin-top: 11px;
+}
+
+#sign_up {
+  border: 1px solid #006AFF;
+  border-radius: 5px;
+  color: #006AFF;
+  padding: 0 10px;
+  margin-top: 15px;
+}
+.navbar-nav>li:hover >a {
+  color: #0160FF;
+}
+.nav>li>a:hover {
+  background-color: #fff;
+}
+#sign_up:hover {
+  color: #fff;
+  background-color: #006AFF;
+}
+/* JUMBO */
+
+#jumbo {
+
+  background-image: url("../img/bg-sea.svg");
+  background-size: cover;
+}
+#jumbo h1 {
+  margin-top: 70px;
+  font-size: 62px;
+  color: #fff;
+}
+#jumbo p {
+  color: #fff;
+  opacity: 0.9;
+  font-size: 20px;
+  margin-bottom:70px;
+}
+
+/* FORM */
+.form {
+  width: 85%;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.testi_form {
+  padding-top: 20px;
+}
+.form h2 {
+  color:  #031B4E;
+  text-align: center;
+  line-height: 20px;
+  font-weight: 500;
+}
+.form h2 + h2 {
+color: #006AFF;
+}
+input {
+  font-size: 16px;
+  font-weight: 500;
+  width: 85%;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #eee;
+}
+.form button {
+  display: block;
+  width: 85%;
+  margin: 0 auto;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: #006AFF;
+  opacity: 0.6;
+  color: #fff;
+  font-size: 16px;
+}
+.form button + button {
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  opacity: 0.9;
+  border: 1px solid #eee;
+}
+.form span {
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  padding-bottom: 25px;
+}
+.form .fa-google {
+  position: relative;
+  right: 28%;
+  font-size: 20px;
+}
+.form button > span {
+  display: inline-block;
+  padding-bottom: 0;
+  position: relative;
+  right: 2%;
+}
+.form a {
+  color: #006AFF;
+  text-decoration: underline;
+}
