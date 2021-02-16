@@ -313,6 +313,7 @@ input:hover {
   list-style: none;
   padding-left: 0;
   margin-top: 30px;
+  padding-bottom: 20px;
 }
 #regions li {
   border-bottom: 2px solid #fff;
@@ -320,7 +321,7 @@ input:hover {
   margin-bottom: 10px;
   position: relative;
 }
-#regions #last_li {
+#regions .last_li {
   border-bottom: none;
 }
 #regions p {
@@ -349,6 +350,10 @@ input:hover {
   margin-top: 50px;
   color: #031C4E;
 }
+ #teams img {
+  width: 50%;
+  margin-bottom: 10px;
+}
 .card_teams {
   display: inline-block;
   width: 70%;
@@ -365,8 +370,10 @@ input:hover {
   vertical-align: middle;
 }
 #teams p {
-  width: 90%;
+  font-size: 18px;
+  width: 85%;
   margin: 0 auto;
+  text-align: center;
 }
  #teams a {
    display: block;
@@ -374,6 +381,7 @@ input:hover {
    color: #00D5D2;
    font-weight: 600;
    margin: 25px 0;
+   margin-top: 10px;
  }
  #teams span {
    display: block;
@@ -402,4 +410,90 @@ input:hover {
 }
 #get button:hover {
   background-color: #CCCCCC;
+}
+
+/* FOOTER */
+
+#footer {
+  background-color: #010E28;
+}
+
+#footer img {
+  width: 50px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+#footer p {
+  color: #fff;
+  opacity: 0.8;
+  margin-bottom: 0;
+}
+#footer span {
+  display: block;
+  color: #fff;
+  opacity: 0.7;
+}
+#footer i {
+  margin-right: 15px;
+  font-size: 20px;
+  color: #fff;
+  opacity: 0.8;
+  margin-top: 20px;
+}
+#footer ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 20px;
+}
+#footer li {
+  margin-top: 10px;
+}
+#footer a {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.7;
+}
+#footer a:hover {
+  opacity: 1;
+  text-decoration: underline;
+}
+#footer .first_a {
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+.pt {
+  padding-top: 50px;
+}
+.helper {
+  width: 250px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+    display: inline-block;
+}
+#footer .helper p {
+  color: #5C6A88;
+  font-weight: 600;
+}
+#footer .helper + img {
+  margin-top: 0;
+  margin-bottom: 0;
+  display: inline-block;
+}
+.fixed_help {
+  position: fixed;
+  left: 10%;
+  bottom: 5%;
+  z-index: 2;
+}
+
+/* MEDIA QUERIES */
+@media all and  (min-width: 767px) {
+  .fixed_help {
+    position: fixed;
+    left: 70%;
+    bottom: 5%;
+    z-index: 2;
+  }
 }
