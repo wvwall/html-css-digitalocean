@@ -46,6 +46,7 @@ font-size: 12px;
   color: #006AFF;
   padding: 0 10px;
   margin-top: 15px;
+  line-height: 35px;
 }
 .navbar-nav>li:hover >a {
   color: #0160FF;
@@ -56,6 +57,7 @@ font-size: 12px;
 #sign_up:hover {
   color: #fff;
   background-color: #006AFF;
+  transition: 1s ;
 }
 /* JUMBO */
 
@@ -146,6 +148,7 @@ input:hover {
   position: relative;
   right: 25%;
   font-size: 20px;
+  color: #015FFF;
 }
 .form button > span {
   display: inline-block;
@@ -370,8 +373,8 @@ input:hover {
   color: #031C4E;
 }
  #teams img {
-  width: 50%;
-  padding-top: 20px;
+  width: 45%;
+  margin-bottom: 30px;
 }
 .card_teams {
   display: inline-block;
@@ -379,7 +382,7 @@ input:hover {
   margin: 0 auto;
   background-color: #fff;
   vertical-align: middle;
-  padding-top: 70px;
+  padding-top: 80px;
   margin-top: 70px;
   border-radius: 3px;
 }
