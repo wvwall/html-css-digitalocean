@@ -187,7 +187,8 @@ input:hover {
   margin: 0 auto;
 }
 #deploy h2 {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   color: #031C4E;
 }
 #deploy p {
@@ -197,6 +198,9 @@ input:hover {
   margin-bottom: 30px;
   margin-top: 15px;
   color: #5C6A88;
+}
+#deploy .ml-0 {
+  margin-left: 0;
 }
 #deploy h5 {
   font-size: 20px;
@@ -233,7 +237,8 @@ input:hover {
   margin: 0 auto;
 }
 #designed h2 {
-  margin-top: 30px;
+  margin-top: 50px;
+  margin-bottom: 30px;
   color: #031C4E;
 }
 #designed p {
@@ -487,6 +492,7 @@ input:hover {
   padding: 10px;
   border-radius: 5px;
   display: inline-block;
+  position: relative;
 }
 #footer .helper p {
   color: #5C6A88;
@@ -495,21 +501,30 @@ input:hover {
 }
 #footer .helper + img {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   display: inline-block;
 }
 .fixed_help {
   position: fixed;
-  left: 15%;
+  left: 30%;
   bottom: 5%;
   z-index: 2;
+}
+.squaree {
+  width: 22px;
+  height: 22px;
+  background-color: #fff;
+  position: absolute;
+  bottom: 4px;
+  right: -5px;
+  transform: rotate(45deg);
 }
 
 /* MEDIA QUERIES */
 @media all and  (min-width: 767px) {
   .fixed_help {
     position: fixed;
-    left: 70%;
+    left: 75%;
     bottom: 5%;
     z-index: 2;
   }
