@@ -60,7 +60,8 @@
 /* JUMBO */
 
 #jumbo {
-  padding-bottom: 30px;
+  padding-bottom: 50px;
+  padding-top: 30px;
   background-image: url("../img/bg-sea.svg");
   background-size: cover;
 }
@@ -159,6 +160,7 @@ input:hover {
 /* PARTNERS */
 #partners {
   background-color: #F3F5F9;
+  padding: 20px 0;
 }
 #partners h6 {
   text-align: center;
@@ -189,6 +191,8 @@ input:hover {
   color: #031C4E;
 }
 #deploy p {
+  width: 80%;
+  margin: 0 auto;
   font-size: 18px;
   margin-bottom: 30px;
   margin-top: 15px;
@@ -233,6 +237,8 @@ input:hover {
   color: #031C4E;
 }
 #designed p {
+  width: 80%;
+  margin: 0 auto;
   font-size: 18px;
   margin-bottom: 100px;
   color: #5C6A88;
@@ -282,11 +288,15 @@ input:hover {
   width: 95%;
   margin: 0 auto;
 }
+#features h2 {
+  margin-bottom: 50px;
+}
 #features p {
   font-size: 18px;
   margin-bottom: 10px;
   margin-top: 15px;
   color: #5C6A88;
+  min-height: 135px;
 }
 #features h5 {
   font-size: 20px;
@@ -298,11 +308,13 @@ input:hover {
   font-weight: 600;
   padding-bottom: 20px;
   margin-top: 10px;
+  margin-bottom: 30px;
 }
 
 /* REGIONS */
 #regions {
   background-image: url("../img/bg-blue.svg");
+  padding: 20px 0;
 }
 #regions h2 {
   text-align: center;
@@ -352,7 +364,7 @@ input:hover {
 }
  #teams img {
   width: 50%;
-  margin-bottom: 10px;
+  padding-top: 20px;
 }
 .card_teams {
   display: inline-block;
@@ -360,14 +372,17 @@ input:hover {
   margin: 0 auto;
   background-color: #fff;
   vertical-align: middle;
-  padding-top: 30px;
-  margin-top: 50px;
+  padding-top: 70px;
+  margin-top: 70px;
 }
 .fa-chevron-left,
 .fa-chevron-right{
   display: inline-block;
   font-size: 30px;
   vertical-align: middle;
+}
+.fa-chevron-left{
+  opacity: 0.7;
 }
 #teams p {
   font-size: 18px;
@@ -393,6 +408,7 @@ input:hover {
 #get {
   text-align: center;
   background-image: url("../img/bg-blue.svg");
+  padding: 20px 0;
 }
 #get h2 {
   color: #fff;
@@ -466,15 +482,16 @@ input:hover {
   padding-top: 50px;
 }
 .helper {
-  width: 250px;
+  width: 200px;
   background-color: #fff;
   padding: 10px;
   border-radius: 5px;
-    display: inline-block;
+  display: inline-block;
 }
 #footer .helper p {
   color: #5C6A88;
   font-weight: 600;
+  font-size: 12px;
 }
 #footer .helper + img {
   margin-top: 0;
@@ -483,7 +500,7 @@ input:hover {
 }
 .fixed_help {
   position: fixed;
-  left: 10%;
+  left: 15%;
   bottom: 5%;
   z-index: 2;
 }
